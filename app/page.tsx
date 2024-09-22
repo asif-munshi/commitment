@@ -1,31 +1,27 @@
-import Link from "next/link";
 import Image from "next/image";
 
 export default function HomePage() {
   return (
-    <div className="grid min-h-screen font-[family-name:var(--font-geist-sans)]">
-      <header className="w-7xl grid h-16 grid-cols-3 justify-items-center py-4">
-        <Link href={"/"}>
+    <main className="flex h-full flex-auto items-center justify-center">
+      <div className="flex w-[85%] flex-col items-center justify-center gap-4">
+        <div>
           <Image
-            className="bg-none"
             src="/commitment.svg"
-            alt="commitment logo"
-            width={48}
-            height={48}
+            alt="Commitment logo"
+            height={400}
+            width={400}
             priority
           />
-        </Link>
-        <ol className="col-span-2 flex flex-row justify-end gap-4">
-          <Link
-            href={"/"}
-            className="text-center font-bold hover:text-orange-600"
-          >
-            Home
-          </Link>
-        </ol>
-      </header>
-      <main>Main</main>
-      <footer>Footer</footer>
-    </div>
+        </div>
+        <div className="divide-y-2 divide-[#f25936ff]">
+          <h1 className="scroll-m-20 text-center text-4xl font-extrabold uppercase tracking-tight lg:text-5xl">
+            Commitment Accesories
+          </h1>
+          <p className="text-center font-[family-name:var(--font-geist-mono)] leading-7">
+            All Kinds of Garments Accessories Manufacturer, Exporter & Supplier
+          </p>
+        </div>
+      </div>
+    </main>
   );
 }
