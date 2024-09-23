@@ -22,11 +22,6 @@ const navLinks: { id: number; title: string; href: string }[] = [
     href: "/capacities",
   },
   {
-    id: 2,
-    title: "Products",
-    href: "/products",
-  },
-  {
     id: 3,
     title: "Certifications",
     href: "/certifications",

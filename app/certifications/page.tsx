@@ -20,6 +20,19 @@ export default function CertificationsPage() {
       </div>
 
       <div className="mb-4 grid h-auto w-full grid-cols-1 place-items-center gap-2 md:mb-8 md:grid-cols-2 md:px-0 xl:grid-cols-4 xl:gap-4">
+        <Card className="w-[350px]">
+          <CardHeader className="p-1">
+            <Image
+              className="h-[500px] w-auto"
+              src="/certifications/BIN_Certification_For_Commitment.jpg"
+              alt="Commitment Accessories ISO"
+              height={500}
+              width={300}
+              priority
+            />
+          </CardHeader>
+        </Card>
+
         <Card className="flex h-[500px] w-[350px] items-center">
           <CardHeader className="p-1">
             <Image
@@ -38,6 +51,32 @@ export default function CertificationsPage() {
             <Image
               className="h-[500px] w-auto"
               src="/certifications/Commitment_Accessories_ISO.jpg"
+              alt="Commitment Accessories ISO"
+              height={500}
+              width={300}
+              priority
+            />
+          </CardHeader>
+        </Card>
+
+        <Card className="w-[350px]">
+          <CardHeader className="p-1">
+            <Image
+              className="h-[500px] w-auto"
+              src="/certifications/Commitment_Accessories-ERC.jpg"
+              alt="Commitment Accessories ISO"
+              height={500}
+              width={300}
+              priority
+            />
+          </CardHeader>
+        </Card>
+
+        <Card className="w-[350px]">
+          <CardHeader className="p-1">
+            <Image
+              className="h-[500px] w-auto"
+              src="/certifications/Tin_Cartificate_Commitment.jpg"
               alt="Commitment Accessories ISO"
               height={500}
               width={300}
