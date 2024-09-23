@@ -30,7 +30,7 @@ export default function ContactPage() {
       </div>
       <div className="flex w-[85%] justify-center">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1150.3349863558526!2d90.42001533213886!3d23.744318363638246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8667b1d63c7%3A0x6ba37b492cff9e53!2sShantibagh%20(Ershad)%20High%20School!5e0!3m2!1sen!2sbd!4v1726906925263!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d228.279613979126!2d90.4177456674525!3d23.730477139945794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1727072301682!5m2!1sen!2sbd"
           width="100%"
           height="450"
           style={{ border: 0 }}

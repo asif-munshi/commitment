@@ -36,7 +36,7 @@ export default function ProductsPage() {
             <Image
               className="h-[324px] max-w-[324px]"
               src="/products/PMPL Hang_Tag-2.jpg"
-              alt="PMPL Hang_Tag-2"
+              alt="PMPL Hang Tag-2"
               height={324}
               width={324}
               priority
@@ -49,7 +49,72 @@ export default function ProductsPage() {
             <Image
               className="h-[324px] max-w-[324px]"
               src="/products/TPJ Hang_Tag.jpg"
-              alt="TPJ Hang_Tag"
+              alt="TPJ Hang Tag"
+              height={324}
+              width={324}
+              priority
+            />
+          </CardHeader>
+        </Card>
+
+        <Card className="w-auto">
+          <CardHeader className="p-1">
+            <Image
+              className="h-[324px] max-w-[324px]"
+              src="/products/Alcott_Hang_Tag-1.jpg"
+              alt="Alcott_Hang_Tag-1"
+              height={324}
+              width={324}
+              priority
+            />
+          </CardHeader>
+        </Card>
+
+        <Card className="w-auto">
+          <CardHeader className="p-1">
+            <Image
+              className="h-[324px] max-w-[324px]"
+              src="/products/Alcott_Hang_Tag-2.jpg"
+              alt="Alcott_Hang_Tag-2"
+              height={324}
+              width={324}
+              priority
+            />
+          </CardHeader>
+        </Card>
+
+        <Card className="w-auto">
+          <CardHeader className="p-1">
+            <Image
+              className="h-[324px] max-w-[324px]"
+              src="/products/Alcott_Leather_Patch.jpg"
+              alt="Alcott_Hang_Tag-2"
+              height={324}
+              width={324}
+              priority
+            />
+          </CardHeader>
+        </Card>
+
+        <Card className="w-auto">
+          <CardHeader className="p-1">
+            <Image
+              className="h-[324px] max-w-[324px]"
+              src="/products/Alcott_Price_Tag.jpg"
+              alt="Alcott_Hang_Tag-2"
+              height={324}
+              width={324}
+              priority
+            />
+          </CardHeader>
+        </Card>
+
+        <Card className="w-auto">
+          <CardHeader className="p-1">
+            <Image
+              className="h-[324px] max-w-[324px]"
+              src="/products/Arula_Denim.jpg"
+              alt="Alcott_Hang_Tag-2"
               height={324}
               width={324}
               priority

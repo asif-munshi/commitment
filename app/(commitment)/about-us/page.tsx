@@ -1,7 +1,9 @@
+import { MaxWidthWraper } from "@/components/layout/MaxWidthWraper";
+
 export default function AboutUsPage() {
   return (
-    <div>
+    <MaxWidthWraper>
       <div>AboutUsPage</div>
-    </div>
+    </MaxWidthWraper>
   );
 }

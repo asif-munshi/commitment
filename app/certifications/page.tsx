@@ -20,11 +20,11 @@ export default function CertificationsPage() {
       </div>
 
       <div className="mb-4 grid h-auto w-full grid-cols-1 place-items-center gap-2 md:mb-8 md:grid-cols-2 md:px-0 xl:grid-cols-4 xl:gap-4">
-        <Card className="w-[350px]">
+        <Card className="flex h-[500px] w-[350px] items-center">
           <CardHeader className="p-1">
             <Image
-              className="h-[500px] w-auto"
-              src="/certifications/Commitment Accessories_FSC Chain of Custody_SCS_High.jpg"
+              className="h-[350px] w-auto"
+              src="/certifications/Commitment_Accessories_FSC_Chain_of_Custody_SCS.jpg"
               alt="product1"
               height={500}
               width={300}

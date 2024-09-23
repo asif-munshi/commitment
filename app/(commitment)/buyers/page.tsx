@@ -1,7 +1,9 @@
+import { MaxWidthWraper } from "@/components/layout/MaxWidthWraper";
+
 export default function BuyersPage() {
   return (
-    <div>
+    <MaxWidthWraper>
       <div>BuyersPage</div>
-    </div>
+    </MaxWidthWraper>
   );
 }

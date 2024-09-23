@@ -38,16 +38,6 @@ const navLinks: { id: number; title: string; href: string }[] = [
   },
 ];
 
-// const commitment: { href: string }[] = [
-//   { href: "/about-us" },
-//   { href: "/concerns" },
-//   { href: "/buyers" },
-// ];
-const about: string = "/about-us";
-const concerns: string = "/concerns";
-
-// const commitment: string = "/about-us" || "/concerns" || "/buyers";
-
 export const Navbar = () => {
   const pathname = usePathname();
 
