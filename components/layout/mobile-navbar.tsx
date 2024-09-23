@@ -7,12 +7,6 @@ import { usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils";
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import {
   Sheet,
   SheetContent,
   SheetDescription,
