@@ -51,7 +51,7 @@ export const Navbar = () => {
                 "hover:text-[#f25936ff]",
                 navigationMenuTriggerStyle(),
                 pathname.match(/^[/]$/)
-                  ? "text-[#f25936ff] hover:bg-transparent hover:text-[#f25936ff] focus:bg-transparent focus:text-[#f25936ff]"
+                  ? "bg-transparent text-[#f25936ff] hover:bg-transparent hover:text-[#f25936ff] focus:bg-transparent focus:text-[#f25936ff]"
                   : "text-black"
               )}
             >
@@ -64,7 +64,7 @@ export const Navbar = () => {
           <NavigationMenuTrigger
             className={cn(
               pathname.includes("about-us")
-                ? "text-[#f25936ff] hover:bg-transparent hover:text-[#f25936ff] focus:bg-transparent focus:text-[#f25936ff]"
+                ? "bg-transparent text-[#f25936ff] hover:bg-transparent hover:text-[#f25936ff] focus:bg-transparent focus:text-[#f25936ff]"
                 : "text-black"
             )}
           >
@@ -77,7 +77,7 @@ export const Navbar = () => {
                 title="About Us"
                 className={cn(
                   pathname.match("/about-us")
-                    ? "text-[#f25936ff] hover:bg-transparent hover:text-[#f25936ff] focus:bg-transparent focus:text-[#f25936ff]"
+                    ? "bg-transparent text-[#f25936ff] hover:bg-transparent hover:text-[#f25936ff] focus:bg-transparent focus:text-[#f25936ff]"
                     : "text-black"
                 )}
               />
@@ -86,7 +86,7 @@ export const Navbar = () => {
                 title="Concerns"
                 className={cn(
                   pathname.match("/concerns")
-                    ? "text-[#f25936ff] hover:bg-transparent hover:text-[#f25936ff] focus:bg-transparent focus:text-[#f25936ff]"
+                    ? "bg-transparent text-[#f25936ff] hover:bg-transparent hover:text-[#f25936ff] focus:bg-transparent focus:text-[#f25936ff]"
                     : "text-black"
                 )}
               />
@@ -110,7 +110,7 @@ export const Navbar = () => {
                 className={cn(
                   navigationMenuTriggerStyle(),
                   pathname.match(link.href)
-                    ? "text-[#f25936ff] hover:bg-transparent hover:text-[#f25936ff] focus:bg-transparent focus:text-[#f25936ff]"
+                    ? "bg-transparent text-[#f25936ff] hover:bg-transparent hover:text-[#f25936ff] focus:bg-transparent focus:text-[#f25936ff]"
                     : "text-black"
                 )}
               >

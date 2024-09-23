@@ -25,7 +25,7 @@ export default function CertificationsPage() {
             <Image
               className="h-[350px] w-auto"
               src="/certifications/Commitment_Accessories_FSC_Chain_of_Custody_SCS.jpg"
-              alt="product1"
+              alt="Commitment Accessories FSC Chain of Custody SCS"
               height={500}
               width={300}
               priority
@@ -38,7 +38,7 @@ export default function CertificationsPage() {
             <Image
               className="h-[500px] w-auto"
               src="/certifications/Commitment_Accessories_ISO.jpg"
-              alt="product1"
+              alt="Commitment Accessories ISO"
               height={500}
               width={300}
               priority
