@@ -34,16 +34,11 @@ const navLinks: { id: number; title: string; href: string }[] = [
   },
   {
     id: 2,
-    title: "Products",
-    href: "/products",
-  },
-  {
-    id: 3,
     title: "Certifications",
     href: "/certifications",
   },
   {
-    id: 4,
+    id: 3,
     title: "Contact",
     href: "/contact",
   },
